@@ -88,11 +88,11 @@ li.top-menu-item, li.bottom-menu-item {
 }
 
 ul.top-menu-items a:hover {
-  color: red;
+  color: #0099cc;
 }
 
 ul.bottom-menu-items a:hover {
-  color: red;
+  color: #0099cc;
 }
 
 ul.top-menu-items a {
@@ -104,6 +104,7 @@ ul.top-menu-items a {
   text-decoration: none;
   font-size: 25px;
   font-style: bold;
+  text-shadow: 1px 1px 0px white;
 }
 
 li.top-home {
@@ -130,8 +131,9 @@ ul.bottom-menu-items a {
   display: block;
   line-height: 40px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-style: bold;
+  text-shadow: 1px 1px 0px white;
 }
 
 ul.bottom-menu-items {
@@ -171,7 +173,7 @@ li.bottom-about {
 }
 
 #what-image {
-  background: url("/Users/Dan/Desktop/TID_website/images/election_monitoring-v3.png") no-repeat;  
+  background: url("/Users/Dan/Desktop/TID_website/images/election_monitoring-v3.png") no-repeat;
 }
 
 #who-image {
@@ -195,16 +197,17 @@ li.bottom-about {
   font-weight: bold;
   font-family: Trebuchet-MS;
   padding-top: 60%;
-  
 }
 
 .who-text {
   color: #0099cc;
   padding-left: 32%;
+  text-shadow: 1px 2px 1px #015F81;
 }
 
 .what-text {
   color: #f26649;
   padding-left: 1%;
+  text-shadow: 1px 2px 1px #C35039;
 }
 
