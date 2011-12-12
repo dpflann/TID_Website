@@ -160,33 +160,51 @@ li.bottom-about {
 
 #what {
   float: left;
-  width: 40%;
-  padding-left: 8%;
+  width: 35%;
+  padding-left: 10%;
 }
 
 #who {
   float: right;
-  width: 40%;
-  padding-right: 8%;
+  width: 35%;
+  padding-right: 10%;
 }
 
 #what-image {
-  background: url("/Users/Dan/Desktop/TID_website/images/deji-v2.png") no-repeat;  
+  background: url("/Users/Dan/Desktop/TID_website/images/election_monitoring-v3.png") no-repeat;  
 }
 
 #who-image {
-  background: url("/Users/Dan/Desktop/TID_website/images/deji-v2.png") no-repeat;
+  background: url("/Users/Dan/Desktop/TID_website/images/deji-v3.png") no-repeat;
 }
 
-.what-image, .who-image {
+#what-image, #who-image {
   display: block;
-  height: 400px;
+  height: 300px;
 }
 
 
 .what-description, .who-description {
- padding-top: 3%;
+ padding-top: 9.5%;
  padding-bottom: 2%;
+ padding-right: 8%;
 }
 
+.who-text, .what-text {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Trebuchet-MS;
+  padding-top: 60%;
+  
+}
+
+.who-text {
+  color: #0099cc;
+  padding-left: 32%;
+}
+
+.what-text {
+  color: #f26649;
+  padding-left: 1%;
+}
 
