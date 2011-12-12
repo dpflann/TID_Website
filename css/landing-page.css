@@ -1,0 +1,13 @@
+#container {
+  width: 800px;
+}
+
+#what {
+  float: left;
+  width: 20%;
+}
+
+#who {
+  margin-left: 20%
+  font-size: 30px;
+}

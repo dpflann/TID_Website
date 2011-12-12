@@ -1,0 +1,192 @@
+#container {
+
+}
+
+body {
+  background: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* logo header */
+#logo-header {
+  height: 125px;
+}
+#logo-header a {
+  display: block;
+}
+
+.tid-logo-link {
+  background: url("/Users/Dan/Desktop/TID_website/images/site-images/tid-logo-for-web.png") no-repeat;
+  display: block;
+  text-indent: -9999px;
+  height: 94px;
+  width: 350px;
+  float: left;
+}
+
+.tid-logo {
+  float: left;
+  width: 350px;
+  height: 94px;
+}
+
+.gt-logo {
+  float: right;
+  width: 350px;
+  height: 102px;
+}
+.gt-logo-link {
+  background: url("/Users/Dan/Desktop/TID_website/images/site-images/gt-logo-for-web.png") no-repeat;
+  display: block;
+  text-indent: -9999px;
+  height: 102px;
+  width: 350px;
+}
+
+/* Horizontal bars */
+hr.top-menu-divider {
+  display: block;
+  width: 95%;
+  height: 2px;
+  color: black;
+  background-color: black;
+  border: 0;
+  margin-left: 2.5%;
+}
+
+hr.bottom-menu-divider {
+  display: block;
+  width: 85%;
+  height: 2px;
+  color: black;
+  background-color: black;
+  border: 0;
+  margin-left: 7.5%;
+  margin-top: 1%;
+}
+
+/*Menu styling*/
+#top-menu {
+  height: 75px;
+}
+
+#bottom-menu {
+  height: 20px;
+}
+
+li.top-menu-item, li.bottom-menu-item {
+  float: left;
+}
+
+ul.top-menu-items a:hover {
+  color: red;
+}
+
+ul.bottom-menu-items a:hover {
+  color: red;
+}
+
+ul.top-menu-items a {
+  color: black;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 25px;
+  font-style: bold;
+}
+
+li.top-home {
+  padding-left: 10%;
+}
+
+li.top-projects {
+
+}
+
+li.top-people {
+  padding-left: 32%;
+}
+
+li.top-about {
+  padding-right: 10%;
+}
+
+
+ul.bottom-menu-items a {
+  color: black;
+  padding-right: 25px;
+  padding-left: 25px;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: bold;
+}
+
+ul.bottom-menu-items {
+  margin-left: 20%;
+}
+
+li.bottom-home {
+  padding-left: 10%;
+}
+
+li.bottom-projects {
+
+}
+
+li.bottom-people {
+}
+
+li.bottom-about {
+}
+
+
+/*content in container styling*/
+#middle-content {
+  height: 500px;
+}
+
+#what {
+  float: left;
+  width: 40%;
+  padding-left: 8%;
+}
+
+#who {
+  float: right;
+  width: 40%;
+  padding-right: 8%;
+}
+
+#what-image {
+  background: url("/Users/Dan/Desktop/TID_website/images/deji-v2.png") no-repeat;  
+}
+
+#who-image {
+  background: url("/Users/Dan/Desktop/TID_website/images/deji-v2.png") no-repeat;
+}
+
+.what-image, .who-image {
+  display: block;
+  height: 400px;
+}
+
+
+.what-description, .who-description {
+ padding-top: 3%;
+ padding-bottom: 2%;
+}
+
+
