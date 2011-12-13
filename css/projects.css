@@ -1,0 +1,108 @@
+#what-we-do-title {
+  display: block;
+}
+
+.what-we-do-title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Trebuchet-MS;
+  color: #f26649;
+  text-shadow: 1px 2px 1px #C35039;
+  padding-left: 40%
+}
+
+#what-we-do {
+  display: block;
+  padding-top: 1%;
+  padding-right: 12%;
+  padding-left: 12%;
+
+}
+
+#what-we-do-description {
+  display: block;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1%;
+}
+
+.what-we-do-description {
+}
+
+#projects-container {
+  display: block;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+ul.project-list {
+  display: block;
+}
+
+li.project-list-item {
+  float: left;
+  width: 30%;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 1%;
+}
+
+ul.project-who-list {
+  display: block;
+}
+
+li.project-who-item {
+  display: block;
+  float: left;
+  padding-right: 2%;
+  font-size: 16px;
+}
+
+li.who {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#project-description, #project-title, #project-who {
+  display: block;
+}
+
+
+.project-description {
+  font-size: 16px;
+}
+
+#a-project {
+  display: block; 
+}
+
+#a-project a {
+  text-decoration: none;
+  color: black;
+}
+
+#a-project a:hover {
+  color: #0099cc;
+}
+
+#a-project a:active {
+  color: #f26649;
+}
+
+hr.projects-menu-divider {
+  display: block;
+  width: 95%;
+  height: 2px;
+  color: black;
+  background-color: black;
+  border: 0;
+  margin-left: 2.5%;
+}
+
+

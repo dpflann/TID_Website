@@ -1,0 +1,65 @@
+#who-we-are-title {
+  display: block;
+}
+
+.who-we-are-title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Trebuchet-MS;
+  color: #0099cc;
+  text-shadow: 1px 2px 1px #015F81;
+  padding-left: 40%
+}
+
+#who-we-are-description {
+  display: block;
+  padding-top: 2%;
+  padding-right: 12%;
+  padding-left: 12%;
+
+}
+
+.who-we-are-description {
+}
+
+ul.people-list {
+  margin-top: 5%;
+  display: block;
+}
+
+li.people-list-item a {
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+li.people-list-item a:hover {
+  color: #0099cc; 
+}
+
+li.people-list-item a:active {
+  color: #f26649; 
+}
+
+#who-we-are-list {
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%
+}
+
+#faculty, #post-docs, #graduates, #undergraduates, #alumni {
+  float: left;
+  padding-left: 6%;
+  padding-top: 2%;
+  display: block;
+}
+
+.list-title {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
