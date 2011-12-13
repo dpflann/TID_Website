@@ -9,7 +9,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: Trebuchet-MS;  
+  font-family: Trebuchet-MS;
 }
 
 ul {
@@ -88,12 +88,12 @@ li.top-menu-item, li.bottom-menu-item {
   float: left;
 }
 
-ul.top-menu-items a:hover {
+ul.bottom-menu-items a:hover, ul.top-menu-items a:hover {
   color: #0099cc;
 }
 
-ul.bottom-menu-items a:hover {
-  color: #0099cc;
+ul.top-menu-items a:active, ul.bottom-menu-items a:active {
+  color: black;
 }
 
 ul.top-menu-items a {
@@ -184,6 +184,27 @@ li.bottom-about {
 #what-image, #who-image {
   display: block;
   height: 300px;
+  padding-bottom: 1%;
+}
+
+#what-image a {
+  text-decoration: none;
+  color: #f26649;
+}
+
+#what-image a:hover {
+  color: #C35039;
+  text-shadow: 1px 2px 1px #f26649;
+}
+
+#who-image a {
+  text-decoration: none;
+  color: #0099cc;
+}
+
+#who-image a:hover {
+  color: #015F81;
+  text-shadow: 1px 2px 1px #0099cc;
 }
 
 

@@ -35,11 +35,11 @@ li.people-list-item a {
 }
 
 li.people-list-item a:hover {
-  color: #0099cc; 
+  color: #0099cc;
 }
 
 li.people-list-item a:active {
-  color: #f26649; 
+  color: black;
 }
 
 #who-we-are-list {

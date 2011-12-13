@@ -88,11 +88,11 @@ li.who {
 }
 
 #a-project a:hover {
-  color: #0099cc;
+  color: #f26649;
 }
 
 #a-project a:active {
-  color: #f26649;
+  color: black;
 }
 
 hr.projects-menu-divider {
